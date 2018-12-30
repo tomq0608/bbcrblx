@@ -24,3 +24,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+pages:
+- _posts/coming-soon.md
