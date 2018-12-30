@@ -1,0 +1,26 @@
+---
+label: Video
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: file
+  name: video
+  label: Video
+  description: Upload the video here
+- type: datetime
+  name: uploaded_on
+  label: Uploaded On
+  description: What date was the video uplaoded on?
+  config:
+    date_format: DD/MM/YYYY
+    required: false
+- type: textarea
+  name: description
+  label: Description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
